@@ -16,7 +16,19 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    packaging {
+        resources {
+            excludes += arrayOf(
+                "META-INF/DEPENDENCIES",
+                "META-INF/NOTICE",
+                "META-INF/NOTICE.txt",
+                "META-INF/LICENSE",
+                "META-INF/LICENSE.txt",
+                "META-INF/NOTICE.md",
+                "META-INF/LICENSE.md"
+            )
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -49,4 +61,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    implementation(libs.jpos)
 }

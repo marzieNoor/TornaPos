@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<isopackager >
+    <isofield id="0" length="4" name="MESSAGE TYPE INDICATOR" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="1" length="16" name="BIT MAP" class="org.jpos.iso.IFA_BITMAP"/>
+    <isofield id="2" length="19" name="PRIMARY ACCOUNT NUMBER" class="org.jpos.iso.IFA_LLNUM"/>
+    <isofield id="4" length="12" name="TRANSACTION AMOUNT" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="7" length="10" name="TRANSMISSION DATE AND TIME" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="11" length="6" name="SYSTEM TRACE AUDIT NUMBER" class="org.jpos.iso.IFA_NUMERIC"/>
+
+</isopackager>

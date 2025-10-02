@@ -43,4 +43,20 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msgHistory">تاریخچه پیام‌ها:</string>
+    <string name="msgBuilde">ساخت پیام</string>
+    <string name="price">مبلغ (ریال)</string>
+    <string name="cardNumber">شماره کارت</string>
+    <string name="iso_8583_msg">لطفا پیام ISO 8583 خود را وارد کنید.</string>
+    <string name="msgPars">پارس پیام</string>
+    <string name="yourMsg">پیام شما:</string>
+    <string name="iso_8583_compelated">پیام کامل ISO 8583:</string>
+    <string name="fields">فیلدها:</string>
+    <string name="validation_iso_8583">لطفا پیام ISO 8583 را وارد کنید</string>
+    <string name="err_parsing">خطا در پارس: %1$s</string>
+    <string name="err_build_iso">خطا در ساخت پیام: %1$s</string>
+    <string name="msg_build">ساخت پیام</string>
+    <string name="msg_pars">پارس پیام</string>
 </resources>

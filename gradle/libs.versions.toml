@@ -11,7 +11,8 @@ constraintlayout = "2.2.1"
 navigationFragmentKtx = "2.9.3"
 navigationUiKtx = "2.9.3"
 
-jposVersion= "2.1.4"
+jposVersion= "2.1.7"
+datastoreVersion= "1.1.7"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -25,6 +26,8 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
 jpos = { group = "org.jpos", name = "jpos", version.ref = "jposVersion" }
+
+datastorePreference = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastoreVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

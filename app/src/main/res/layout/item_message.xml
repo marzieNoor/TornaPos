@@ -29,6 +29,7 @@
             android:layout_marginTop="4dp"
             android:background="#F5F5F5"
             android:fontFamily="monospace"
+            android:textIsSelectable="true"
             android:padding="8dp"
             android:textDirection="ltr"
             android:textSize="12sp" />
@@ -57,14 +58,14 @@
 
         <TextView
             android:id="@+id/mitText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layoutDirection="ltr"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/bitmapText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layoutDirection="ltr"
@@ -72,7 +73,7 @@
 
         <TextView
             android:id="@+id/dataText"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layoutDirection="ltr"

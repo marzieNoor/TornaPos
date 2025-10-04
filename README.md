@@ -1,4 +1,5 @@
 A simple Android app for building and parsing ISO8583 financial messages, built with Kotlin, MVVM, and StateFlow.
+apk file is put in repository. download it and enjoy! 
 
 🚀 Features
 

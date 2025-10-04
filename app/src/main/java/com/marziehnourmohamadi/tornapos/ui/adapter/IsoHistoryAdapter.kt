@@ -29,16 +29,14 @@ class IsoHistoryAdapter :ListAdapter<IsoMessage, IsoHistoryAdapter.ViewHolder>(M
 
         fun bind(message: IsoMessage) {
             binding.apply {
-                messageNumberText.text = "پیام ${message.stan}"
-                cardNumberText.text = "کارت: ${message.cardNumber}"
-                amountText.text = "مبلغ: ${message.amount} ریال"
-                stanText.text = "STAN: ${message.stan}"
-                timestampText.text = "زمان: ${message.timestamp}"
+                mitText.text = " MIT: ${message.mit}"
+                bitmapText.text = "BitMap: ${message.bitmap}"
+                dataText.text = "data: ${message.data}"
                 completeIsoText.text = message.completeMessage
 
 
                 val fieldsText = message.fields.joinToString("\n") { field ->
-                    "${field.fieldNumber}: ${field.value}"
+                    "${field.fieldNumber} (${field.fieldName}): ${field.value}"
                 }
                 fieldsListText.text = fieldsText
             }

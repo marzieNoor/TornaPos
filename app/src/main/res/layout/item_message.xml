@@ -15,50 +15,6 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/messageNumberText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="?attr/colorPrimary"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
-            android:background="#E0E0E0" />
-
-        <TextView
-            android:id="@+id/cardNumberText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/amountText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/stanText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textDirection="ltr"
-            android:textSize="14sp" />
-
-        <TextView
-            android:id="@+id/timestampText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:textDirection="ltr"
-            android:textSize="14sp" />
-
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -98,6 +54,30 @@
             android:textDirection="ltr"
             android:textIsSelectable="true"
             android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mitText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bitmapText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layoutDirection="ltr"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dataText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layoutDirection="ltr"
+            android:textDirection="ltr"
+            android:textSize="14sp" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
